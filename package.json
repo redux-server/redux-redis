@@ -1,0 +1,31 @@
+{
+  "name": "redux-server-redis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/redux-server/redux-redis.git",
+  "author": "Ernie Casilla <ecasilla@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "cli": "node ./bin/cli.js",
+    "start": "node index"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bunyan": "^1.8.9",
+    "bunyan-format": "^0.2.1",
+    "cli-table": "^0.3.1",
+    "dotenv": "^4.0.0",
+    "invariant": "^2.2.2",
+    "ramda": "^0.23.0",
+    "redis": "^2.7.1",
+    "redux": "^3.6.0",
+    "redux-debug": "^1.0.3",
+    "redux-thunk": "^2.2.0",
+    "restify": "^4.3.0",
+    "restify-routing": "^0.3.11",
+    "vorpal": "^1.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
